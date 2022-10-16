@@ -2,36 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/Navbar.css">
-    <title>Document</title>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>ศูนย์ฝึกย่อย โรงเรียนกาฬสินธุ์พิทยาสรรพ์</title>
 </head>
 <body>
-    <div class="container">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="/" class="nav__logo">รด. Network &amp; Cyber</a>
+            </div>
+                
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
 
-        <!-- Navbar -->
-        <nav>
-              <input type="checkbox" id="nav" class="hidden">
-              <label for="nav" class="nav-btn">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-              </label>
-              <div class="logo">
-                    <a href="/">BRAND</a>
-              </div>
-              <div class="nav-wrapper">
-                    <ul>
-                          <li><a href="/">Home</a></li>
-                          <li><a href="/gallery.html">Gallery</a></li>
-                          <li><a href="/contant.html">Contant</a></li>
-                          <li><a href="/about.html">About</a></li>
-                    </ul>
-              </div>
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="./about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="./blog.html" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="./contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
         </nav>
-
-        <!-- About -->
-    </div>
+    </header>
+    
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

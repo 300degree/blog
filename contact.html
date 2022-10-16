@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+        body {
+            padding-top: 10vh;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Ubuntu', sans-serif;
+            width: 80vw;
+            height: 80vh;
+            margin: auto;
+            color: rgb(89, 86, 86);
+        }
+        h2{
+            font-size: 30px;
+   
+        }
+        hr{
+            width: 70%;
+        }
+        h4{
+            font-size: 20px;
+        }
+
+        .contact-blocks {
+            display: flex;
+            height: 90%;
+            color: rgb(75, 72, 72);
+        }
+        
+        .outer-cover-cust {
+            border: 1px solid bl;
+        }
+        
+        .student {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: auto;
+            height: 80%;
+            border-radius: 25px;
+        }
+        
+
+        .student {
+            width: 300px;
+            border: 1px #242526 solid;
+            margin: 25px;
+            box-shadow: 0 -10px 5px #242526;
+        }
+        
+        .student h3 {
+            padding-top: 25px;
+            text-align: center;
+        }
+
+        @media screen and (max-width:768px) {
+            body{
+                padding-top: 0;
+
+            }
+            .contact-blocks{
+                flex-direction: column;
+            }
+        }
+    </style>
+
+    <title>ศูนย์ฝึกย่อย โรงเรียนกาฬสินธุ์พิทยาสรรพ์</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="/" class="nav__logo">รด. Network &amp; Cyber</a>
+            </div>
+                
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="./about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="./blog.html" class="nav__link">Blog</a></li>
+                    <li class="nav__item"><a href="./contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!--==== MAIN HTML ====-->
+
+    <div class="container">
+        <h2>Contact</h2>
+        <hr>
+        <h4>Have any questions? We'd love to hear from you</h4>
+        <div class="contact-blocks">
+            <div class="student">
+                <h3>นทศ. ชั้นปี 1</h3>
+                <img src="./assets/img/qrcode/3.png.jpg" alt="ชั้นปี 1">
+            </div>
+
+            <div class="student">
+                <h3>นทศ. ชั้นปี 2</h3>
+                <img src="./assets/img/qrcode/3.png.jpg" alt="ชั้นปี 2">
+            </div>
+
+            <div class="student">
+                <h3>นทศ. ชั้นปี 3</h3>
+                <img src="./assets/img/qrcode/3.png.jpg" alt="ชั้นปี 3">
+            </div>
+
+            <!-- <div class="social-button-item">
+                <a href="https://www.facebook.com/NosotoAnr/?ref=page_internal" target="_blank">
+                    <img src="" alt="facebook" style="width:31px;">
+                </a>
+            </div>
+
+            <div class="social-button-item">
+                <a href="https://www.youtube.com/channel/UCHojroVMRMCSzSScTX4qqsw/featured" target="_blank">
+                    <img src="" alt="facebook" style="width:31px;">
+                </a>
+            </div> -->
+
+        </div>
+    </div>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
