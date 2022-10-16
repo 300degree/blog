@@ -9,6 +9,7 @@
   --first-color-dark: #4D8FE7;
   --first-color-darken: #444546;
   --white-color: #FCF8F8;
+  --font-color: #242526;
   
   /*===== Font and typography =====*/
   --body-font: 'Poppins', sans-serif;
@@ -55,6 +56,30 @@ a{
 img{
   max-width: 100%;
   height: auto;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #111;
+}
+
+footer .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.media-icons a:hover{
+  border-color: #eb2f06;
 }
 
 /*===== LAYOUT =====*/
@@ -141,7 +166,7 @@ img{
   row-gap: 1.5rem;
 }
 
-.home__img{
+.home__vdo{
   position: relative;
   padding-top: 1.5rem;
   justify-self: center;
@@ -149,7 +174,7 @@ img{
   height: 233px;
 }
 
-.home__img img{
+.home__vdo iframe{
   position: absolute;
   top: 0;
   left: 0;
@@ -213,14 +238,15 @@ img{
     justify-content: center;
   }
   
-  .home__img{
+  .home__vdo{
     order: 1;
     width: 375px;
     height: 289px;
   }
 
-  .home__img img{
+  .home__vdo iframe{
     width: 375px;
+    height: 400px;
   }
 }
 
@@ -235,12 +261,12 @@ img{
     column-gap: 4.5rem;
   }
 
-  .home__img{
+  .home__vdo{
     width: 604px;
     height: 466px;
   }
 
-  .home__img img{
+  .home__vdo iframe{
     width: 604px;
   }
 }
